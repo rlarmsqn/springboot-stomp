@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: websocket-stomp
+
+app:
+  ws-origin:
+    - localhost:8080
+  mqtt:
+    host: localhost
+    port: 1883
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        security: DEBUG
